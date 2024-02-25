@@ -1,16 +1,9 @@
 class SharedData:
-    """SharedData v1.3 by Shohruzbek, description: used to save data on computer memory"""
+    """SharedData v1.0 by Shohruzbek, description: used to save data on computer memory"""
     """
     Changelog:
         v1.0:
             module released
-        v1.1:
-            added append(data), update data without losing old data
-        v1.2:
-            added last read feature for use cached last data when getting data from memory, useful for use data.get() multiple times, reduce lag and optimize code
-        v1.3:
-            added clear method to clear data from memory
-            fixed bugs
     """
     
     def __init__(self,filename = "data.txt"):
